@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#63B8FF"
+        android:gravity="center"
+        android:text="Who is the 44th President of the United States?"
+        android:textSize="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#66CDAA"
+        android:gravity="center"
+        android:text="Barack Obama"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addCardButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:backgroundTint="#f2f2f2"
+        app:maxImageSize="60dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/changeFlashCardArrow"
+        android:layout_width="78dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="18dp"
+        android:clickable="true"
+        android:scaleX="-1"
+        app:backgroundTint="#f2f2f2"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+
+
+
+</RelativeLayout>
